@@ -66,7 +66,7 @@ public class HashPlay {
     					indexToCheck = h2Val - (table_size - 1 - currentIndex) - 1;
     					//System.out.println("hop will wrap around to " + indexToCheck + " from " + currentIndex);
     				}
-    				//normal hopping
+    				//normal hopping/probing
     				else
     				{
     					indexToCheck = currentIndex + h2Val;
