@@ -45,7 +45,7 @@ public class HashPlay {
     		int h1Val = hp1.h1[i];
     		int h2Val = hp1.h2[i];
     		//System.out.println("-------\nh1 val: " + h1Val + "\nh2 val: " + h2Val);
-    		//if the index is occupied, probing is needed to resolve the collision.
+    		//if the index is occupied, probing is needed to resolve the collision
     		if (hp1.table[h1Val] != null)
     		{
 //    			System.out.println("occupied val detected at index " + i + " with key " + hp1.table[h1Val] + 
